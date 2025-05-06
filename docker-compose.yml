@@ -1,9 +1,15 @@
+
 version: '3.8'
 
 services:
-  user_resign:
-    image: test_docker.py
-    container_name: test_docker.py
+  test_app:
+    build: .
+    container_name: test_docker_container
+    image: test_docker_image
     restart: always
+    tty: true
 
- 
+
+
+
+

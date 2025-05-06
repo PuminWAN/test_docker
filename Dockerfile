@@ -23,14 +23,3 @@ RUN pip install -r requirements.txt
 
 # Command to run your application
 CMD ["python", "-u", "test_docker.py"]
-
-# Build image
-# docker build -t puminwan/resinguser .
-#docker push puminwan/resinguser_benz
-# Save the image as a .tar file
-# docker save -o docker-test.tar docker-test
-# Load the Docker image on a new device
-# docker load -i docker-test.tar
-# Run the Docker image as a container
-# docker run docker-test
-
