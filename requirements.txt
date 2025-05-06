@@ -1,0 +1,5 @@
+imapclient
+beautifulsoup4
+lxml
+requests
+pytz
