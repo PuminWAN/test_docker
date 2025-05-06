@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   user_resign:
-    image: puminwan/benz_resign01
-    container_name: benz_resign01
+    image: test_docker.py
+    container_name: test_docker.py
     restart: always
 
  

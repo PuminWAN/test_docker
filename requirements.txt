@@ -1,5 +1,2 @@
-imapclient
-beautifulsoup4
-lxml
-requests
-pytz
+datetime
+time

@@ -22,7 +22,7 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # Command to run your application
-CMD ["python", "-u", "benz_resign01.py"]
+CMD ["python", "-u", "test_docker.py"]
 
 # Build image
 # docker build -t puminwan/resinguser .
